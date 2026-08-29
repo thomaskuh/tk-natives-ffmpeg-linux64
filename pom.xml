@@ -12,12 +12,12 @@
 		<tag>HEAD</tag>
 	</scm>
 	
-	<distributionManagement>
-		<repository>
-			<id>nexus.kuhlins.org</id>
-			<url>https://nexus.kuhlins.org/repository/maven-public</url>
-		</repository>
-	</distributionManagement>
+    <distributionManagement>
+        <repository>
+            <id>repo.kuhlins.org</id>
+            <url>https://repo.kuhlins.org/maven2</url>
+        </repository>
+    </distributionManagement>
 	
 	<build>
 		<pluginManagement>
